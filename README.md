@@ -119,3 +119,10 @@
 
 - **Purpose**: Documentation file for the project. It describes the project, how to set it up, run, and use it.
 - **Role**: Provides essential information about the project to developers or users, such as instructions on how to install dependencies, run the app, and use the available APIs.
+
+---
+
+### **9. `backend/middleware/`**
+
+- **Purpose**: This file will handle errors globally, ensuring that all exceptions are caught and the server responds with proper error messages and status codes.
+- **Role**: It centralizes error handling, preventing the need to add `try-catch` blocks in every route. This middleware is placed at the end of the middleware stack and catches any errors not handled elsewhere.
